@@ -1,308 +1,224 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Rethish S - Portfolio</title>
 
-    <title>Rethish S - Portfolio</title>
+<style>
 
-    <style>
+ body {
+ background-color: lightgrey;
+ }
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-            color: #222;
-        }
+ header {
+ background-color: grey;
+ color: white;
+ text-align: center;
+ 
+  }
 
-        header {
-            background-color: #222;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
+ nav a {
+ color: white;
+ margin: 10px;
+ }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
-        }
+ nav a:hover {
+ color: black;
+ }
 
-        nav a:hover {
-            color: #4da6ff;
-        }
+ .home {
+ text-align: center;
+ background-color: white;
+ padding: 40px;
+ }
 
-        .home {
-            background-color: white;
-            text-align: center;
-            padding: 60px 20px;
-        }
+ .home img {
+ width: 180px;
+ height: 220px;
+ }
 
-        .home img {
-            width: 180px;
-            height: 220px;
-            object-fit: cover;
-            border-radius: 10px;
-        }
+ .home h1 span {
+ color: blue;
+ }
 
-        .home h1 {
-            font-size: 35px;
-            margin-bottom: 5px;
-        }
+  section {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+   }
 
-        .home h1 span {
-            color: #1479d1;
-        }
+  h2 {
+  color: blue;
+  }
 
-        .home p {
-            font-size: 18px;
-        }
+  .skills span {
+  background-color: skyblue;
+  padding: 8px;
+  margin: 5px;
+   }
 
-        section {
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 25px;
-            background-color: white;
-        }
+  .project {
+   border: 1px solid gray;
+  padding: 10px;
+  margin: 10px 0;
+  }
 
-        h2 {
-            color: #1479d1;
-            border-bottom: 2px solid #1479d1;
-            padding-bottom: 5px;
-        }
+  .project h3 {
+   color: blue;
+   }
 
-        .skills span {
-            display: inline-block;
-            background-color: #e5f2ff;
-            padding: 8px 15px;
-            margin: 5px;
-            border-radius: 5px;
-        }
+  .contact a {
+  color: blue;
+  }
 
-        .project {
-            border: 1px solid #ddd;
-            padding: 15px;
-            margin: 15px 0;
-        }
-
-        .project h3 {
-            color: #1479d1;
-        }
-
-        .contact a {
-            color: #1479d1;
-            text-decoration: none;
-        }
-
-        .contact a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            background-color: #222;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        @media (max-width: 600px) {
-
-            nav a {
-                display: inline-block;
-                margin: 5px;
-            }
-
-            section {
-                margin: 15px;
-            }
-
-        }
-
-    </style>
+</style>
 
 </head>
 
 <body>
 
-    <!-- Header -->
+<header>
 
-    <header>
+<h1>Rethish S</h1>
 
-        <h1>Rethish S</h1>
+<nav>
+ <a href="#home">Home</a>
+ <a href="#about">About</a>
+ <a href="#skills">Skills</a>
+ <a href="#projects">Projects</a>
+ <a href="#education">Education</a>
+ <a href="#contact">Contact</a>
+</nav>
 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
-        </nav>
+</header>
 
-    </header>
 
+<div class="home" id="home">
 
-    <!-- Home -->
+<img src="profile.jpg" alt="My Photo">
 
-    <div class="home" id="home">
+<h1>Hello, I'm <span>Rethish S</span></h1>
 
-        <img src="profile.jpg" alt="My Photo">
+<p>Engineering Student | Aspiring Software Developer</p>
 
-        <h1>Hello, I'm <span>Rethish S</span></h1>
+<p>I am interested in coding, technology and building projects.</p>
 
-        <p>
-            Engineering Student | Aspiring Software Developer
-        </p>
+</div>
 
-        <p>
-            I am interested in coding, technology and building projects.
-        </p>
 
-    </div>
+<section id="about">
 
+<h2>About Me</h2>
 
-    <!-- About -->
+<p>
+ I am a third-year engineering student interested in
+ software development and technology.
+</p>
 
-    <section id="about">
+<p>
+ I like learning programming, solving problems and
+ creating simple projects.
+</p>
 
-        <h2>About Me</h2>
+</section>
 
-        <p>
-            I am a Third-year engineering student interested in
-            software development and technology.
-        </p>
 
-        <p>
-            I like learning new programming languages, solving
-            problems and creating simple projects.
-        </p>
+<section id="skills">
 
-    </section>
+<h2>My Skills</h2>
 
+<div class="skills">
 
-    <!-- Skills -->
+<span>Java</span>
+<span>C</span>
+<span>HTML</span>
+<span>CSS</span>
+<span>Git</span>
 
-    <section id="skills">
+</div>
+</section>
 
-        <h2>My Skills</h2>
 
-        <div class="skills">
+<section id="projects">
 
-            <span>Java</span>
-            <span>Frontend</span>
-            <span>Github</span>
-            <span>C</span>
+<h2>My Projects</h2>
 
-        </div>
+<div class="project">
 
-    </section>
+<h3>FraudShield</h3>
 
+<p>
+ An AI-powered project for detecting online consumer
+ fraud. It checks suspicious URLs and provides a
+ risk score to the user.
+</p>
 
-    <!-- Projects -->
+</div>
 
-    <section id="projects">
 
-        <h2>My Projects</h2>
+<div class="project">
 
-        <div class="project">
+<h3>Smart Parking System</h3>
 
-            <h3>FraudShield</h3>
+<p>
+ An IoT-based parking solution that helps users find
+ available parking spaces in real time.
+</p>
 
-            <p>
-                An AI-powered project for detecting online consumer
-                fraud. It checks suspicious URLs and provides a
-                risk score to the user.
-            </p>
+</div>
 
-        </div>
+<div class="project">
 
+<h3>Education Navigator</h3>
 
-        <div class="project">
+<p>
+ EduNav Career Choosing is a career guidance website
+ for students. It helps students explore suitable
+ career paths.
+</p>
 
-            <h3>Smart Parking System</h3>
+</div>
 
-            <p>
-                An IoT-based parking solution that helps users find
-                available parking spaces in real time.
-            </p>
+</section>
 
-        </div>
 
+<section id="education">
 
-        <div class="project">
+<h2>Education</h2>
 
-            <h3>Education Navigator</h3>
+<h3>B.Tech Information Technology</h3>
 
-            <p>
-                EduNav Career Choosing is a career guidance website
-                for students. It helps students explore and choose
-                suitable career paths.
-            </p>
+<p>Sri Sairam Engineering College, Chennai</p>
+<p>2024 - 2028</p>
 
-        </div>
+<h3>Higher Secondary</h3>
 
-    </section>
+<p>Lakshmi Gardern School, Vellore</p>
+<p>State Board - 2022 - 2024</p>
 
+</section>
 
-    <!-- Education -->
 
-    <section id="education">
+<section id="contact">
 
-        <h2>Education</h2>
+<h2>Contact</h2>
 
-        <h3>B.Tech. Information Technology</h3>
+<p>Email: rethish827@gmail.com</p>
 
-        <p>
-            Sri Sairam Engineering College, Chennai.
-        </p>
+<p>Phone: +91 9489674560</p>
 
-        <p>
-            2024 - 2028
-        </p>
+<p>
+<a href="https://www.linkedin.com/in/rethish-s-abb2a53b8/"target="_blank">
+LinkedIn
+</a>
+</p>
 
+<p>
+<a href="resume.pdf" target="_blank">
+Resume
+</a>
+</p>
 
-        <h3>Higher Secondary</h3>
-
-        <p>
-            Lakshmi Gardern School, Vellore.
-        </p>
-
-        <p>
-            State Board - 2022 - 2024
-        </p>
-
-    </section>
-
-
-    <!-- Contact -->
-
-    <section id="contact" class="contact">
-
-        <h2>Contact</h2>
-
-        <p>
-            Email: rethish827@gmail.com
-        </p>
-
-        <p>
-            Phone: +91 9489674560
-        </p>
-
-        <p>
-            <a href="https://www.linkedin.com/in/rethish-s-abb2a53b8/"
-               target="_blank">
-                LinkedIn
-            </a>
-        </p>
-
-        <p>
-            <a href="resume.pdf" target="_blank">
-                View Resume
-            </a>
-        </p>
-
-    </section>
-
-
-    
+</section>
 
 </body>
 </html>
